@@ -453,6 +453,11 @@ textarea{
     line-height: 21px;
     color: #221f1f;
     font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.review__desc{
+    font-family: 'open_sanslight';
 }
 
 .news__date, .review__date{
@@ -466,6 +471,10 @@ textarea{
 .news__title, .review__title{
     font-weight: 700;
     margin-bottom: 5px;
+}
+
+.review__title{
+    font-family: 'open_sansbold';
 }
 
 .news__text, .review__text{
