@@ -63,7 +63,7 @@ textarea{
     width: 25%;
     box-sizing: border-box;
     border: 1px  dashed #ccc;
-    oveflow: hidden;
+    overflow: hidden;
 }
 
 .section_w_50{
