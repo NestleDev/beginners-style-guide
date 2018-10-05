@@ -595,8 +595,8 @@ textarea{
     letter-spacing: 1.2px;
     color: #ffffff;
     font-family: "open_sansbold";
-    line-height: 54px;
     padding: 0 21px;
+    line-height: 54px;
     border-radius: 4px;
 }
 
@@ -625,6 +625,7 @@ textarea{
     line-height: 54px;
     color: #221f1f;
     font-family: "open_sanslight";
+    margin-bottom: 15px;
 }
 
 .radio-btns__controls, .radio-btns__label{
