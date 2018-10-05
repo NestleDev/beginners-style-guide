@@ -1,0 +1,59 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    display: flex;
+    height: 100%;
+}
+
+.section{
+    flex: 1;
+    background-size: cover;
+    background-position: center center;
+}
+
+.section__link{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.section__link:hover .section__logo{
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section__logo{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transition: .5s;
+}
+
+.section__logo_trans-air{
+    transform: translate(-50%, -60%);
+}
+
+.section__logo_trans-cow{
+    transform: translate(-50%, -70%);
+}
+
+.section__logo_trans-fit{
+    transform: translate(-50%, -80%);
+}
+.airplanet{
+    background-image: url('../images/kzhhnb6xsqi-margo-brodowicz.png');
+}
+
+.coworking{
+    background-image: url('../images/wei.png');
+}
+
+.fitness{
+    background-image: url('../images/gym-595597_1920.png');
+}
