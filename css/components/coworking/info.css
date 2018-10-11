@@ -1,0 +1,18 @@
+.info{
+    background-color: #27273e;
+    background-image: url(../../../images/pattern.png);
+    padding: 49px 0;
+}
+
+.info__text{
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.info__accent{
+    color: #ec1e79;
+    font-weight: 700;
+}

@@ -1,0 +1,12 @@
+.partner{
+    display: flex;
+}
+
+.partner__img{
+    filter: grayscale(100%);
+    transition: .5s;
+}
+
+.partner:hover .partner__img{
+    filter: grayscale(0);
+}

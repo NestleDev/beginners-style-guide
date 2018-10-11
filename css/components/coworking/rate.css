@@ -1,0 +1,70 @@
+.rate{
+    width: 250px;
+}
+
+.rate__photo{
+    height: 150px;
+}
+
+.rate__photo{
+    width: 100%;
+    height: 153px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 28px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.rate__photo::before{
+    content: '';
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #27273e;
+    opacity: 0.85;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rate__logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: #5dd1f8;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    max-width: 180px;
+}
+
+.prices__item_active .rate__logo::before{
+    content: 'vip';
+    color: #ec1e79;
+}
+
+.rate__desc{
+    text-align: center;
+    color: #221f1f;
+    font-family: "Gotham Pro";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.rate__title{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}

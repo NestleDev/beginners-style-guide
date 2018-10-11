@@ -1,5 +1,5 @@
 @import 'settings/fonts.css';
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
 html,body{
     margin: 0;
     padding: 0;
@@ -75,15 +75,7 @@ textarea{
     background-image: url('../images/wei.png');
     background-size: cover;
 }
-/*=============================LOGO===============*/
 
-.logo{
-    color: #f89513;
-    font-family: "gora_freeregular";
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 1.8px;
-}
 
 /*==============================MENU==========================*/
 .menu__item{

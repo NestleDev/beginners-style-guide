@@ -1,0 +1,83 @@
+.header{
+    background-color: #27273e;
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0 17px 0;
+}
+
+.maincontent{
+    padding: 67px 0 70px 0;
+}
+
+.features{
+    margin-bottom: 90px;
+}
+
+.features__list{
+    display: flex;
+    justify-content: space-between;
+    width: 810px;
+}
+
+.last-news__list{
+    margin-bottom: 66px;
+}
+
+.last-news__item, .reviews__item{
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.last-news__item:last-child, .reviews__item:last-child{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.reviews__list{
+    margin-bottom: 54px;
+}
+
+.prices__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.prices__item{
+    margin-bottom: 66px;
+}
+
+.partners__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.partners__item{
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.footer{
+    background-color: #27273e;
+    padding: 20px 0 16px 0;
+    min-width: 1100px;
+}
+
+.feedback{
+    padding: 57px 0 50px 0;
+}
+
+.feedback__wrap{
+    background-color: #f5f5f5;
+    padding: 50px 70px;
+}
+

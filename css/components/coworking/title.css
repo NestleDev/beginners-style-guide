@@ -1,0 +1,27 @@
+.title{
+    color: #221f1f;
+    font-family: "Gotham Pro";
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.title_mb_64{
+    margin-bottom: 64px;
+}
+
+.title_mb_75{
+    margin-bottom: 75px;
+}
+
+.title_mb_50{
+    margin-bottom: 50px;
+}
+
+.title_mb_29{
+    margin-bottom: 29px;
+}
+
+.title_mb_40{
+    margin-bottom: 40px;
+}

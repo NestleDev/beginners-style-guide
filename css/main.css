@@ -14,6 +14,7 @@ html, body{
     flex: 1;
     background-size: cover;
     background-position: center center;
+    position: relative;
 }
 
 .section__link{
@@ -23,9 +24,14 @@ html, body{
     position: relative;
 }
 
-.section__link:hover .section__logo{
+.section:hover .section__logo{
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.section:hover .demo{
+    opacity: 1;
+    transition: .5s;
 }
 
 .section__logo{
@@ -56,4 +62,44 @@ html, body{
 
 .fitness{
     background-image: url('../images/gym-595597_1920.png');
+}
+
+.demo{
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    border: 1px solid #f89513;
+    color: #fff;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    opacity: 0;
+}
+
+.demo_air{
+    border: 1px solid #4b73b5;
+    color: #4b73b5;
+}
+
+.demo_cow{
+    border: 1px solid #ec1e79;
+    color: #fff;
+}
+
+.demo:hover{
+    background-color: #f89513;
+}
+
+.demo_air:hover {
+    background-color:#4b73b5;
+    color: #fff;
+}
+
+.demo_cow:hover{
+    background-color: #ec1e79;
 }

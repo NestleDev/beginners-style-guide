@@ -1,0 +1,31 @@
+.breadсrumbs__list, .breadсrumbs__item{
+    display: flex;
+}
+
+.breadсrumbs__item::before{
+    content: '/';
+    display: flex;
+    margin: 0 3px;
+}
+
+.breadсrumbs__item:first-child::before{
+    content: '';
+}
+
+.breadcrumbs__item_active .breadсrumbs__link{
+    color: #ec1e79;
+    text-decoration: underline;
+}
+
+.breadсrumbs__link{
+    opacity: 0.8;
+    color: #221f1f;
+    font-family: "Gotham Pro";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.breadcrumbs_mb_28{
+    margin-bottom: 28px;
+}

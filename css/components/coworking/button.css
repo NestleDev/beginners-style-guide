@@ -1,0 +1,30 @@
+.button{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-weight: 700;
+    line-height: 54px;
+    padding: 0 21px;
+    border-radius: 4px;
+    transition: .3s;
+    font-size: 12px;
+}
+
+.button_bg_black{
+   background-color: #27273e;;
+}
+
+.button_bg_black:hover{
+    background-color: #ec1e79
+}
+
+.button_color_pink{
+    color: #ec1e79;
+    border: 3px solid #ec1e79;
+}
+
+.button_color_pink:hover{
+    background-color: #ec1e79;
+    color: #fff;
+}

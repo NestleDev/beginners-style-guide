@@ -1,0 +1,38 @@
+@import 'settings/normalize.css';
+@import 'settings/fonts.css';
+@import 'settings/base.css';
+@import 'layout/afrodita.css';
+
+
+/* ============conponents=============== */
+
+/* header */
+@import 'components/fitness/logo.css';
+@import 'components/fitness/menu.css';
+@import 'components/fitness/contacts.css';
+/* banner */
+@import 'components/fitness/banner.css';
+/* title */
+@import 'components/fitness/title.css';
+/* features */
+@import 'components/fitness/feature.css';
+/* news */
+@import 'components/fitness/news-review.css';
+@import 'components/fitness/top-news.css';
+/* pagination */
+@import 'components/fitness/pagination.css';
+@import 'components/fitness/breadcrumbs.css';
+/* info */
+@import 'components/fitness/info.css';
+/* form */
+@import 'components/fitness/form.css';
+@import 'components/fitness/radio.css';
+/* button */
+@import 'components/fitness/button.css';
+/* service */
+@import 'components/fitness/service.css';
+/* partner */
+@import 'components/fitness/partner.css';
+/* footer */
+@import 'components/fitness/copyright.css';
+@import 'components/fitness/socials.css';

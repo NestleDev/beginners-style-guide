@@ -1,0 +1,33 @@
+.top-news{
+    width: 160px;
+}
+
+.top-news__info{
+    color: #221f1f;
+    font-family: "open_sansbold";
+    font-size: 12px;
+    line-height: 21px;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    margin-bottom: 20px;
+}
+
+.top-news__period{
+    color: #656464;
+}
+
+.top-news__item{
+    margin-bottom: 20px;
+}
+
+.top-news__item:last-child{
+    margin-bottom: 0;
+}
+
+.top-news__link, .top-news__photo{
+    display: flex;
+}
+
+.top-news__photo{
+    max-width: 100%;
+}

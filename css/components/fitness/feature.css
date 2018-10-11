@@ -1,0 +1,67 @@
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 210px;
+}
+
+.feature__icon{
+    width: 68px;
+    height: 68px;
+    background-color: #f89513;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 43px;
+}
+
+.feature__icon::before{
+    content: '';
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.feature__icon_flower::before{
+    width: 27px;
+    height: 31px;
+    background-image: url('../../../images/flower.png');
+}
+
+.feature__icon_palete::before{
+    width: 28px;
+    height: 29px;
+    background-image: url('../../../images/painter-palette.png');
+}
+
+.feature__icon_star::before{
+    width: 32px;
+    height: 32px;
+    background-image: url('../../../images/mark-as-favorite-star.png');
+}
+
+.feature__desc{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.feature__title{
+    font-family: "open_sansbold";
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.88px;
+    margin-bottom: 30px;
+}
+
+.feature__inner-list{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.feature__inner-item{
+    list-style: disc;
+}

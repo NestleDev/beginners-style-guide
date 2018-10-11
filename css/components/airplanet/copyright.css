@@ -1,0 +1,18 @@
+.copyright{
+    color: #fff;
+    max-width: 236px;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.copyright__link{
+    text-decoration: underline;
+    font-weight: 700;
+    color: #fff;
+}
+
+.copyright__name{
+    font-weight: 700;
+}

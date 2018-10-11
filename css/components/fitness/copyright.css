@@ -1,0 +1,17 @@
+.copyright{
+    color: #fff;
+    max-width: 250px;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: "open_sanslight";
+}
+
+.copyright__link{
+    text-decoration: underline;
+    font-family: "open_sansbold";
+    color: #fff;
+}
+
+.copyright__name{
+    font-family: "open_sansbold";
+}

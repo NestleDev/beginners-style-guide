@@ -1,0 +1,36 @@
+@import 'settings/normalize.css';
+@import 'settings/fonts.css';
+@import 'settings/base.css';
+@import 'layout/airplanet.css';
+
+
+/* ============conponents=============== */
+
+/* header */
+@import 'components/airplanet/contacts.css';
+/* maincontent */
+@import 'components/airplanet/menu.css';
+/* title */
+@import 'components/airplanet/title.css';
+/* tarif */
+@import 'components/airplanet/tarif.css';
+/* news-reviews */
+@import 'components/airplanet/news.css';
+/* pagination */
+@import 'components/airplanet/pagination.css';
+/* footer */
+@import 'components/airplanet/copyright.css';
+@import 'components/airplanet/socials.css';
+/* breadcrumbs */
+@import 'components/airplanet/breadcrumbs.css';
+/* info */
+@import 'components/airplanet/info.css';
+/* form */
+@import 'components/airplanet/form.css';
+@import 'components/airplanet/radio.css';
+/* button */
+@import 'components/airplanet/button.css';
+/* team */
+@import 'components/airplanet/employee.css';
+/* partner */
+@import 'components/airplanet/partner.css';

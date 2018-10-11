@@ -1,0 +1,66 @@
+.menu__item{
+    margin-bottom: 30px;
+ }
+ 
+ .menu__item:last-child{
+     margin-bottom: 0;
+ }
+ 
+ .menu__item:first-child{
+     margin-left: 0;
+ }
+ 
+ .menu__item_active .menu__link span, .menu__link:hover span{
+     display: flex;
+     color: #000000;
+     border-bottom: 1px solid #bfbfbf;
+ }
+ 
+ .menu__link{
+     display: flex;
+     align-items: center;
+     color: #ec1e79;
+     font-family: "Gotham Pro";
+     font-weight: 700;
+     font-size: 12px;
+     text-transform: uppercase;
+     letter-spacing: 1.2px;
+ }
+ 
+ .menu__link::before{
+     content: '';
+     display: flex;
+     background-repeat: no-repeat;
+     background-position: center center;
+     margin-right: 17px;
+ }
+ 
+ .menu__link_main-icon::before{
+     width:17px;
+     height: 16px;
+     background-image: url('../../../images/main_icon_w.png');
+ }
+ 
+ .menu__item_active .menu__link_main-icon::before, .menu__link_main-icon:hover::before{
+     background-image: url('../../../images/main_icon_hov.png');
+ }
+ 
+ .menu__link_feed-icon::before{
+     width: 20px;
+     height: 18px;
+     background-image: url('../../../images/feed_icon_w.png');
+ }
+ 
+ .menu__item_active .menu__link_feed-icon::before, .menu__link_feed-icon:hover::before{
+     background-image: url('../../../images/feed_icon_hov.png');
+ }
+ 
+ .menu__link_wallet-icon::before{
+     width: 19px;
+     height: 16px;
+     background-image: url('../../../images/wallet_icon.png');
+ }
+ 
+ .menu__item_active .menu__link_wallet-icon::before, .menu__link_wallet-icon:hover::before{
+     background-image: url('../../../images/wallet_icon_hover.png');
+ }

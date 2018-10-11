@@ -1,0 +1,36 @@
+@import 'settings/normalize.css';
+@import 'settings/fonts.css';
+@import 'settings/base.css';
+@import 'layout/coworking.css';
+
+
+/* ============conponents=============== */
+
+/* header */
+@import 'components/coworking/contacts.css';
+/* maincontent */
+@import 'components/coworking/menu.css';
+/* title */
+@import 'components/coworking/title.css';
+/* tarif */
+@import 'components/coworking/feature.css';
+/* news-reviews */
+@import 'components/coworking/news.css';
+/* pagination */
+@import 'components/coworking/pagination.css';
+/* footer */
+@import 'components/coworking/copyright.css';
+@import 'components/coworking/socials.css';
+/* breadcrumbs */
+@import 'components/coworking/breadcrumbs.css';
+/* info */
+@import 'components/coworking/info.css';
+/* form */
+@import 'components/coworking/form.css';
+@import 'components/coworking/radio.css';
+/* button */
+@import 'components/coworking/button.css';
+/* team */
+@import 'components/coworking/rate.css';
+/* partner */
+@import 'components/coworking/partner.css';

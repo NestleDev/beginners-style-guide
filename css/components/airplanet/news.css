@@ -1,0 +1,41 @@
+.news, .review{
+    display: flex;
+}
+
+.news__photo, .review__photo{
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.news__img, .review__img{
+    max-width: 100%;
+}
+
+.news__desc, .review__desc{
+    font-size: 18px;
+    width: 700px;
+    margin-left: 20px;
+    line-height: 21px;
+    color: #221f1f;
+    font-family: 'Roboto';
+}
+
+.news__date, .review__date{
+    display: flex;
+    color: #656464;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.news__title, .review__title{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.news__text, .review__text{
+    font-weight: 300;
+    line-height: 30px;
+}

@@ -1,0 +1,60 @@
+.button{
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 700;
+    line-height: 54px;
+    padding: 0 21px;
+    border-radius: 4px;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.button::after{
+    content: '';
+    display: flex;
+    width: 15px;
+    height: 14px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+}
+
+.button_bg_blue{
+    background-color: #4b73b5;
+}
+
+.button_bg_blue:hover{
+    background-color: #fff;
+    color: #1c5bc3;
+}
+
+.button_arrow_white:hover::after{
+    background-image: url(../../../images/button_hover.png);
+}
+
+.button_arrow_white::after{
+    background-image: url(../../../images/button_icon.png);
+}
+
+.button_arrow_blue:hover::after{
+    background-image: url(../../../images/button_icon.png);
+}
+
+.button_arrow_blue::after{
+    background-image: url(../../../images/button_hover.png);
+}
+
+
+.button_transparent{
+    color: #1c5bc4;
+    border: 1px solid #1c5bc3;
+}
+
+.button_transparent:hover{
+    background-color: #1c5bc3;
+    color: #ffffff;
+
+}

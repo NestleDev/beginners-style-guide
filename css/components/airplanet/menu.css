@@ -1,0 +1,65 @@
+.menu__item{
+    margin-bottom: 30px;
+ }
+ 
+ .menu__item:last-child{
+     margin-bottom: 0;
+ }
+ 
+ .menu__item:first-child{
+     margin-left: 0;
+ }
+ 
+ .menu__item_active .menu__link, .menu__link:hover{
+     color: #221f1f;
+ }
+ 
+ .menu__link{
+     display: flex;
+     align-items: center;
+     color: #4b73b5;
+     font-family: 'Roboto';
+     font-size: 12px;
+     font-weight: 700;
+     text-transform: uppercase;
+     letter-spacing: 2.4px;
+ }
+ 
+ .menu__link::before{
+     content: '';
+     display: flex;
+     background-repeat: no-repeat;
+     background-position: center center;
+     margin-right: 17px;
+ }
+ 
+ .menu__link_main-icon::before{
+     width: 17px;
+     height: 18px;
+     background-image: url('../../../images/main_air.png');
+ }
+ 
+ .menu__item_active .menu__link_main-icon::before, .menu__link_main-icon:hover::before{
+     background-image: url('../../../images/main_icon_a.png');
+ }
+ 
+ .menu__link_feed-icon::before{
+     width: 20px;
+     height: 18px;
+     background-image: url('../../../images/feed_icon_a.png');
+ }
+ 
+ .menu__item_active .menu__link_feed-icon::before, .menu__link_feed-icon:hover::before{
+     background-image: url('../../../images/feed_icon_hov.png');
+ }
+ 
+ .menu__link_team-icon::before{
+     width: 23px;
+     height: 18px;
+     background-image: url('../../../images/team_icon.png');
+ }
+ 
+ .menu__item_active .menu__link_team-icon::before, .menu__link_team-icon:hover::before{
+     background-image: url('../../../images/team_icon_hover.png');
+ }
+ 
